@@ -62,7 +62,9 @@ if(message.content.indexOf(config.prefix) !== 0) return;
 
 if (command === "ping") {
 	message.channel.send('pong')};
-
+if (command === "help") {
+	message.channel.send('***Toute les commandes de ce bot:***/n
+			     
 
 });
 
