@@ -64,7 +64,7 @@ if (command === "ping") {
 	message.channel.send('pong')};
 if (command === "help") {
 	message.channel.send('***Toute les commandes de ce bot:***/n
-			     '[Clique ici](https://discordapp.com/oauth2/authorize?client_id=446570163974832138&permissions=8&scope=bot) 
+			     '[Clique ici](https://discordapp.com/oauth2/authorize?client_id=446570163974832138&permissions=8&scope=bot) ')};
 });
 
 client.login(process.env.TOKEN);
