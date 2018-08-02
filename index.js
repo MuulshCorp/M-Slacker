@@ -63,7 +63,7 @@ if(message.content.indexOf(config.prefix) !== 0) return;
 if (command === "ping") {
 	message.channel.send('pong')};
 if (command === "help") {
-	message.channel.send('***Toute les commandes de ce bot:***/n +
+/*ya une faute faut mettre ' avant le +	*/ message.channel.send('***Toute les commandes de ce bot:***/n + 
 			     '[Clique ici](https://discordapp.com/oauth2/authorize?client_id=446570163974832138&permissions=8&scope=bot) ')};
 });
 
