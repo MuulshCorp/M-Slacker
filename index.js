@@ -65,7 +65,19 @@ if (command === "ping") {
 if (command === "help") {
 /*ya une faute faut mettre ' avant le +	*/ message.channel.send('***Toute les commandes de ce bot:***/n + 
 			     '[Clique ici](https://discordapp.com/oauth2/authorize?client_id=446570163974832138&permissions=8&scope=bot)')};
-			     '[Et ici c]
+			     '[Et ici c\'est le site officiel de la Slacker company](http://slackercompany.ml/) /n + 
+	                     '[Rejoins le serveur officiel de la Slacker company](https://discord.gg/hR7YweR) /n +
+	                     
+	                     
+	                     '***help principal:***/n +
+                             'config.prefil+help1 /n +
+	                     '***help de culture:***/n +
+                             'config.prefil+help2 /n +
+	                     '***help ammusant:***/n +
+                             'config.prefil+help3 /n + 
+	                     '***help de modération:***/n +
+                             'config.prefil+help4 /n +
+	
 });
 
 client.login(process.env.TOKEN);
