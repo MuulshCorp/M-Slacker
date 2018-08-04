@@ -62,22 +62,51 @@ if(message.content.indexOf(config.prefix) !== 0) return;
 
 if (command === "ping") {
 	message.channel.send('pong')};
-if (command === "help") {
-/*ya une faute faut mettre ' avant le +	*/ message.channel.send('***Toute les commandes de ce bot:***/n + 
-			     '[Clique ici](https://discordapp.com/oauth2/authorize?client_id=446570163974832138&permissions=8&scope=bot)')};
-			     '[Et ici c\'est le site officiel de la Slacker company](http://slackercompany.ml/) /n + 
-	                     '[Rejoins le serveur officiel de la Slacker company](https://discord.gg/hR7YweR) /n +
-	                     
-	                     
-	                     '***help principal:***/n +
-                             'config.prefil+help1 /n +
-	                     '***help de culture:***/n +
-                             'config.prefil+help2 /n +
-	                     '***help ammusant:***/n +
-                             'config.prefil+help3 /n + 
-	                     '***help de modération:***/n +
-                             'config.prefil+help4 /n +
-	
+
+if (command === "help1") {
+        message.channel.send({embed: {
+         color: 3447003,
+         title: Hey ${message.author.username} !,
+         description: "Hey ! Voici les  différents menu !",
+         fields: [	      
+         {  
+         name: "Les menu",
+        
+        config.prefix+"help1 =le menu principal \n" + 
+        config.prefix+"help2 =le menu de culture \n" +
+        config.prefix+"help3 =le menu d \n" + 
+        config.prefix+"help4 = \n" + 
+       
+      },
+      {
+        name: "Invitation",
+        value: Tu souhaite m'inviter sur un autre serveur ? Voici l'invit : [Clique ici](https://discordapp.com/oauth2/authorize?client_id=446570163974832138&permissions=8&scope=bot)
+      },
+      {
+        name: "Serveur",
+        value: "Tu souhaite rejoindre le serveur de la Slacker Company ? [C'est ici !](https://discord.gg/MNtmkU9)/n" + 
+        
+      },
+      {
+        name: "A propos",
+        value: "Je suis un bot créer par Müulsh#4627 !"
+      }
+    ],
+    timestamp: new Date(),
+    footer: {
+      icon_url: client.user.avatarURL,
+      text: "BUI - Slacker Company"
+    }
+  }
+});
+
+}
+     
+
+
+
+
+
 });
 
 client.login(process.env.TOKEN);
