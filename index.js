@@ -74,13 +74,13 @@ if (command === "help1") {
         
         config.prefix+"help1 =le menu principal \n" + 
         config.prefix+"help2 =le menu de culture \n" +
-        config.prefix+"help3 =le menu d \n" + 
-        config.prefix+"help4 = \n" + 
+        config.prefix+"help3 =le menu d\'amusement \n" + 
+        config.prefix+"help4 =le menu de modération \n" + 
        
       },
       {
         name: "Invitation",
-        value: Tu souhaite m'inviter sur un autre serveur ? Voici l'invit : [Clique ici](https://discordapp.com/oauth2/authorize?client_id=446570163974832138&permissions=8&scope=bot)
+        value: Tu souhaite m'inviter sur un autre serveur ? Voici l'\'invit : [Clique ici](https://discordapp.com/oauth2/authorize?client_id=446570163974832138&permissions=8&scope=bot)
       },
       {
         name: "Serveur",
@@ -89,13 +89,13 @@ if (command === "help1") {
       },
       {
         name: "A propos",
-        value: "Je suis un bot créer par Müulsh#4627 !"
+        value: "Je suis un bot créer par Timeur2.0#6659 !"
       }
     ],
     timestamp: new Date(),
     footer: {
       icon_url: client.user.avatarURL,
-      text: "BUI - Slacker Company"
+      text: "M. Slacker - Slacker Company"
     }
   }
 });
